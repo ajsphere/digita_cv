@@ -8,7 +8,7 @@ NAME = "Ajshe Berisha"
 DESCRIPTION = "Computer Science Engineering Student"
 EMAIL = "berishaajshe07@gmail.com"
 LOCATION = "Prizren, Kosovo"
-RESUME_FILE = "assets/egezon_cv_12_2024.pdf"
+RESUME_FILE = "assets/CV_Ajshe.pdf"
 PROFILE_PIC_FILE = "assets/IMG_8984.jpeg"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
