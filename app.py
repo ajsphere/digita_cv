@@ -1,16 +1,33 @@
 import streamlit as st
-import cv
 
-st.sidebar.title("Menu")
+st.sidebar.title("Navigation")
 
-page = st.sidebar.radio("Go to", ["CV", "Projects"])
+page = st.sidebar.radio("Go to", ["Home", "About", "Projects"])
 
-if page == "CV":
-cv.show()
+# HOME (CV)
+if page == "Home":
+    st.title("Home / CV")
 
+    st.write("Name: Ajshe Berisha")
+    st.write("Education: UBT - Computer Science and Engineering")
+    st.write("Skills: Python, Streamlit")
+    st.write("Email: berishaajshe07@gmail.com")
+
+# ABOUT
+elif page == "About":
+    st.title("About")
+
+    st.write("This is a simple CV web app built using Streamlit.")
+
+# PROJECTS
 elif page == "Projects":
-st.title("Projects")
+    st.title("Projects")
 
-st.write("Project 1: CV Web App")
-st.write("Project 2: Data Analysis")
-st.write("Project 3: Python App")
+    st.subheader("Project 1")
+    st.write("CV Web App")
+
+    st.subheader("Project 2")
+    st.write("Data Analysis Project")
+
+    st.subheader("Project 3")
+    st.write("Python Mini App")
