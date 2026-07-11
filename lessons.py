@@ -147,10 +147,6 @@ SQL nuk është gjuhë programimi, por përdoret për punën me të dhëna në f
 **OLTP**
 - Përdoret për ruajtjen e transaksioneve.
 
-
-### VPS
-
-Virtual Private Server.
 """)
 
 
