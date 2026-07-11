@@ -40,7 +40,6 @@ def show_lessons():
 
 SQL është gjuhë që përdoret për komunikim dhe menaxhim të databazave.
 
-SQL nuk është gjuhë programimi, por përdoret për punën me të dhëna në formë tabelare.
 
 
 ### Me SQL mundemi:
