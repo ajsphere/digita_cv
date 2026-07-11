@@ -25,7 +25,7 @@ profile_pic = Image.open(profile_pic_file)
 
 
 # Sidebar navigation
-page = st.sidebar.radio("Navigate", ["Home", "About"])
+page = st.sidebar.radio("Navigate", ["Home", "About", "Lessons"])
 
 
 if page == "Home":
@@ -82,3 +82,7 @@ elif page == "About":
     """)
 
     st.write("📫", EMAIL)
+
+
+elif page == "Lessons":
+    st.title("Lessons")
