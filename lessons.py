@@ -17,7 +17,6 @@ def show_lessons():
     )
 
 
-    # SQL SECTION
     if subject == "SQL":
 
         st.header("🗄️ SQL")
@@ -36,13 +35,15 @@ def show_lessons():
 
             st.subheader("SQL - Structured Query Language")
 
-            st.write("""
-SQL (Structured Query Language) është gjuhë që përdoret për komunikim me databaza.
+            st.markdown("""
+### SQL (Structured Query Language)
 
-Nuk është gjuhë programimi, por përdoret për menaxhimin e të dhënave në formë tabelare.
+SQL është gjuhë që përdoret për komunikim dhe menaxhim të databazave.
+
+SQL nuk është gjuhë programimi, por përdoret për punën me të dhëna në formë tabelare.
 
 
-**Me SQL mundemi:**
+### Me SQL mundemi:
 
 - Kërkojmë të dhëna
 - Shkruajmë të dhëna
@@ -50,18 +51,17 @@ Nuk është gjuhë programimi, por përdoret për menaxhimin e të dhënave në 
 - Fshijmë të dhëna
 
 
-**Data Analyst:**
+### Data Analyst vs Data Engineer
 
-- Përdor SQL për analizimin dhe marrjen e të dhënave.
+**Data Analyst**
+- Përdor SQL për analizim dhe marrjen e të dhënave.
 
-
-**Data Engineer:**
-
-- Krijon dhe menaxhon databaza.
+**Data Engineer**
+- Krijon dhe menaxhon sistemet e të dhënave.
 - Bën update dhe pastrim të të dhënave.
 
 
-**CRUD Operations:**
+### CRUD Operations
 
 - Create
 - Read
@@ -69,136 +69,122 @@ Nuk është gjuhë programimi, por përdoret për menaxhimin e të dhënave në 
 - Delete
 
 
-**Server vs Database vs Schema**
+### Server, Database dhe Schema
 
-Server:
-- Hapësirë fizike ose virtuale ku ruhen databazat.
+**Server**
+- Infrastrukturë fizike ose virtuale ku ruhen databazat.
 
-Database:
+**Database**
 - Hapësirë virtuale brenda serverit ku ruhen të dhënat.
 
-Schema:
+**Schema**
 - Organizim logjik brenda databazës.
 
 
-**Tables dhe Views**
+### Tables dhe Views
 
-Tables:
-- Ruajnë të dhëna afatgjata.
+**Tables**
+- Ruajnë të dhëna që qëndrojnë në databazë.
 
-Views:
-- Janë rezultate të query-ve dhe nuk ruhen si tabela.
+**Views**
+- Janë rezultate të bazuara në query.
 
 
-**Relationships në SQL**
+### Relationships në SQL
 
 - One to One
 - One to Many
 - Many to Many
 
 
-**Keys**
+### Keys
 
-Primary Key:
-- Identifikues unik për çdo rekord.
+**Primary Key**
+- Identifikues unik për rekordet.
 
-Foreign Key:
+**Foreign Key**
 - Lidh tabela të ndryshme.
 
 
-**Star Schema dhe Snowflake Schema**
+### Star Schema vs Snowflake Schema
 
-Star Schema:
+**Star Schema**
 - Ka një tabelë qendrore dhe tabela të lidhura rreth saj.
 
-Snowflake Schema:
+**Snowflake Schema**
 - Strukturë më e ndarë dhe e normalizuar.
 
 
-**Data Warehouse**
+### Data Warehouse
 
 - Të dhëna të organizuara për analiza.
 
 
-**Data Lake**
+### Data Lake
 
 - Të dhëna të strukturuara dhe jo të strukturuara.
 
 
-**Data Mart**
+### Data Mart
 
 - Të dhëna për një departament specifik.
 
 
-**DBMS vs RDBMS**
+### DBMS vs RDBMS
 
-DBMS:
+**DBMS**
 - Menaxhon databaza.
 
-RDBMS:
+**RDBMS**
 - Menaxhon të dhëna në formë tabelare me lidhje.
 
 
-**OLAP**
+### OLAP vs OLTP
 
+**OLAP**
 - Përdoret për analiza dhe Data Warehouse.
 
-
 **OLTP**
-
 - Përdoret për ruajtjen e transaksioneve.
 
 
-**VPS**
+### VPS
 
 Virtual Private Server.
-            """)
+""")
 
 
         elif lecture == "Lecture 2":
 
             st.subheader("SQL Queries")
-
-            st.write("""
-Summary for SQL Lecture 2 will be added here.
-            """)
+            st.write("Summary for Lecture 2 will be added here.")
 
 
         elif lecture == "Lecture 3":
 
             st.subheader("SQL Joins")
-
-            st.write("""
-Summary for SQL Lecture 3 will be added here.
-            """)
+            st.write("Summary for Lecture 3 will be added here.")
 
 
 
-    # PYTHON SECTION
     elif subject == "Python":
 
         st.header("🐍 Python")
         st.write("Add lesson summary here...")
 
 
-
-    # STATISTICS SECTION
     elif subject == "Statistics":
 
         st.header("📈 Statistics")
         st.write("Add lesson summary here...")
 
 
-
-    # MACHINE LEARNING SECTION
     elif subject == "Machine Learning":
 
         st.header("🤖 Machine Learning")
         st.write("Add lesson summary here...")
 
 
-
-    # DATA VISUALIZATION SECTION
     elif subject == "Data Visualization":
 
         st.header("📊 Data Visualization")
