@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import lessons
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | "
