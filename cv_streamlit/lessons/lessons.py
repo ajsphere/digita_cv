@@ -1,92 +1,36 @@
 import streamlit as st
 
-st.title("📚 Lessons")
+def show_lessons():
 
-subject = st.selectbox(
-    "Choose a subject",
-    [
-        "SQL",
-        "Data Visualization",
-        "Python",
-        "Statistics",
-        "Machine Learning"
-    ]
-)
+    st.title("📚 Lessons")
 
-
-if subject == "SQL":
-    st.header("🗄️ SQL")
-
-    lecture = st.selectbox(
-        "Choose Lecture",
+    subject = st.selectbox(
+        "Choose a subject",
         [
-            "Lecture 1",
-            "Lecture 2",
-            "Lecture 3"
+            "SQL",
+            "Data Visualization",
+            "Python",
+            "Statistics",
+            "Machine Learning"
         ]
     )
 
-    st.subheader(lecture)
-    st.write("Add lesson summary here...")
+    if subject == "SQL":
+        st.header("🗄️ SQL")
+        st.write("Add lesson summary here...")
 
+    elif subject == "Python":
+        st.header("🐍 Python")
+        st.write("Add lesson summary here...")
 
-elif subject == "Data Visualization":
-    st.header("📊 Data Visualization")
+    elif subject == "Statistics":
+        st.header("📈 Statistics")
+        st.write("Add lesson summary here...")
 
-    lecture = st.selectbox(
-        "Choose Lecture",
-        [
-            "Lecture 1",
-            "Lecture 2",
-            "Lecture 3"
-        ]
-    )
+    elif subject == "Machine Learning":
+        st.header("🤖 Machine Learning")
+        st.write("Add lesson summary here...")
 
-    st.subheader(lecture)
-    st.write("Add lesson summary here...")
-
-
-elif subject == "Python":
-    st.header("🐍 Python")
-
-    lecture = st.selectbox(
-        "Choose Lecture",
-        [
-            "Lecture 1",
-            "Lecture 2"
-        ]
-    )
-
-    st.subheader(lecture)
-    st.write("Add lesson summary here...")
-
-
-elif subject == "Statistics":
-    st.header("📈 Statistics")
-
-    lecture = st.selectbox(
-        "Choose Lecture",
-        [
-            "Lecture 1",
-            "Lecture 2"
-        ]
-    )
-
-    st.subheader(lecture)
-    st.write("Add lesson summary here...")
-
-
-elif subject == "Machine Learning":
-    st.header("🤖 Machine Learning")
-
-    lecture = st.selectbox(
-        "Choose Lecture",
-        [
-            "Lecture 1",
-            "Lecture 2"
-        ]
-    )
-
-    st.subheader(lecture)
-    st.write("Add lesson summary here...")
-    
+    elif subject == "Data Visualization":
+        st.header("📊 Data Visualization")
+        st.write("Add lesson summary here...")

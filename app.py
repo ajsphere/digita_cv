@@ -85,4 +85,4 @@ elif page == "About":
 
 
 elif page == "Lessons":
-    st.title("Lessons")
+    lessons.show_lessons()
