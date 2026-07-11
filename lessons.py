@@ -16,7 +16,10 @@ def show_lessons():
         ]
     )
 
+
+    # SQL SECTION
     if subject == "SQL":
+
         st.header("🗄️ SQL")
 
         lecture = st.selectbox(
@@ -28,106 +31,175 @@ def show_lessons():
             ]
         )
 
+
         if lecture == "Lecture 1":
+
             st.subheader("SQL - Structured Query Language")
 
-            st.markdown("""
-            **SQL (Structured Query Language)**
+            st.write("""
+SQL (Structured Query Language) është gjuhë që përdoret për komunikim me databaza.
 
-            SQL përdoret për komunikim me databaza.
-            Nuk është gjuhë programimi, por gjuhë për menaxhimin
-            e të dhënave në formë tabelare.
+Nuk është gjuhë programimi, por përdoret për menaxhimin e të dhënave në formë tabelare.
 
-            **Me SQL mundemi:**
-            - Kërkojmë të dhëna
-            - Shkruajmë të dhëna
-            - Përditësojmë të dhëna
-            - Fshijmë të dhëna
 
-            **Data Analyst:**
-            - Përdor SQL për analizë dhe marrjen e të dhënave.
+**Me SQL mundemi:**
 
-            **Data Engineer:**
-            - Krijon, menaxhon, pastron dhe përditëson të dhënat.
+- Kërkojmë të dhëna
+- Shkruajmë të dhëna
+- Përditësojmë të dhëna
+- Fshijmë të dhëna
 
-            **CRUD Operations:**
-            - Create
-            - Read
-            - Update
-            - Delete
 
-            **Server → Database → Schema**
+**Data Analyst:**
 
-            Serveri përmban databaza.
-            Brenda databazës gjenden schema.
-            Brenda schemave gjenden tabela dhe views.
+- Përdor SQL për analizimin dhe marrjen e të dhënave.
 
-            **Relationships në SQL:**
-            - One to One
-            - One to Many
-            - Many to Many
 
-            **Keys:**
-            - Primary Key: identifikues unik
-            - Foreign Key: lidh tabela mes vete
+**Data Engineer:**
 
-            **Data Warehouse:**
-            Të dhëna të organizuara për analiza.
+- Krijon dhe menaxhon databaza.
+- Bën update dhe pastrim të të dhënave.
 
-            **Data Lake:**
-            Të dhëna të strukturuara dhe jo të strukturuara.
 
-            **Data Mart:**
-            Të dhëna për një departament specifik.
+**CRUD Operations:**
 
-            **Star Schema:**
-            Një tabelë qendrore me tabela të lidhura.
+- Create
+- Read
+- Update
+- Delete
 
-            **Snowflake Schema:**
-            Strukturë më e ndarë dhe e normalizuar.
 
-            **DBMS vs RDBMS**
+**Server vs Database vs Schema**
 
-            DBMS:
-            Menaxhon databaza.
+Server:
+- Hapësirë fizike ose virtuale ku ruhen databazat.
 
-            RDBMS:
-            Menaxhon të dhëna në tabela me lidhje mes tyre.
+Database:
+- Hapësirë virtuale brenda serverit ku ruhen të dhënat.
 
-            **OLAP:**
-            Përdoret për analiza.
+Schema:
+- Organizim logjik brenda databazës.
 
-            **OLTP:**
-            Përdoret për transaksione.
 
-            **VPS:**
-            Virtual Private Server.
+**Tables dhe Views**
+
+Tables:
+- Ruajnë të dhëna afatgjata.
+
+Views:
+- Janë rezultate të query-ve dhe nuk ruhen si tabela.
+
+
+**Relationships në SQL**
+
+- One to One
+- One to Many
+- Many to Many
+
+
+**Keys**
+
+Primary Key:
+- Identifikues unik për çdo rekord.
+
+Foreign Key:
+- Lidh tabela të ndryshme.
+
+
+**Star Schema dhe Snowflake Schema**
+
+Star Schema:
+- Ka një tabelë qendrore dhe tabela të lidhura rreth saj.
+
+Snowflake Schema:
+- Strukturë më e ndarë dhe e normalizuar.
+
+
+**Data Warehouse**
+
+- Të dhëna të organizuara për analiza.
+
+
+**Data Lake**
+
+- Të dhëna të strukturuara dhe jo të strukturuara.
+
+
+**Data Mart**
+
+- Të dhëna për një departament specifik.
+
+
+**DBMS vs RDBMS**
+
+DBMS:
+- Menaxhon databaza.
+
+RDBMS:
+- Menaxhon të dhëna në formë tabelare me lidhje.
+
+
+**OLAP**
+
+- Përdoret për analiza dhe Data Warehouse.
+
+
+**OLTP**
+
+- Përdoret për ruajtjen e transaksioneve.
+
+
+**VPS**
+
+Virtual Private Server.
             """)
 
+
         elif lecture == "Lecture 2":
+
             st.subheader("SQL Queries")
-            st.write("Add lesson summary here...")
+
+            st.write("""
+Summary for SQL Lecture 2 will be added here.
+            """)
+
 
         elif lecture == "Lecture 3":
+
             st.subheader("SQL Joins")
-            st.write("Add lesson summary here...")
+
+            st.write("""
+Summary for SQL Lecture 3 will be added here.
+            """)
 
 
+
+    # PYTHON SECTION
     elif subject == "Python":
+
         st.header("🐍 Python")
         st.write("Add lesson summary here...")
 
 
+
+    # STATISTICS SECTION
     elif subject == "Statistics":
+
         st.header("📈 Statistics")
         st.write("Add lesson summary here...")
 
 
+
+    # MACHINE LEARNING SECTION
     elif subject == "Machine Learning":
+
         st.header("🤖 Machine Learning")
         st.write("Add lesson summary here...")
 
 
+
+    # DATA VISUALIZATION SECTION
     elif subject == "Data Visualization":
+
         st.header("📊 Data Visualization")
         st.write("Add lesson summary here...")
