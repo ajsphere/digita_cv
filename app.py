@@ -66,7 +66,7 @@ if page == "Home":
     st.subheader("Hard Skills")
 
     st.write("""
-- Programming: Java, Python
+- Programming: Java, Python, SQL
 - Tools: GitHub, VS Code, Streamlit
 """)
 
