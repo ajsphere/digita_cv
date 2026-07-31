@@ -80,7 +80,6 @@ elif page == "About":
     st.title("About Me")
 
     st.write("""
-   ## About Me
 
 I am currently pursuing a Bachelor's degree in **Computer Science & Engineering**, where I am building my knowledge in programming, software development, and core computer science concepts.
 
