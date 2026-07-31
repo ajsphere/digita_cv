@@ -80,8 +80,14 @@ elif page == "About":
     st.title("About Me")
 
     st.write("""
-    I am a Computer Science & Engineering student with knowledge in data analysis, Python, SQL, and data science concepts. Experienced in data visualization, exploratory data analysis, and developing practical projects using tools such as GitHub, Databricks, and Streamlit to build interactive applications and data-driven solutions.
-    Interested in software development and passionate about turning creative ideas into real-world solutions.
+   ## About Me
+
+I am currently pursuing a Bachelor's degree in **Computer Science & Engineering**, where I am building my knowledge in programming, software development, and core computer science concepts.
+
+Seeking to expand my learning beyond the classroom, I joined a **Data Science & AI** training program that provided hands-on experience through real-world projects. During the program, I worked with Python, SQL, GitHub, Databricks, Streamlit, and data analysis while strengthening my ability to collaborate and solve practical problems.
+
+I enjoy challenging myself through new projects and continuously developing my technical skills. As I progress in my studies, I look forward to gaining industry experience, working on meaningful software projects, and continuing to grow both academically and professionally.
+
     """)
 
     st.write("📫", EMAIL)
