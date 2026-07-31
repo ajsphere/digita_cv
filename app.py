@@ -80,8 +80,8 @@ elif page == "About":
     st.title("About Me")
 
     st.write("""
-    I am a Computer Science Engineering student with a strong passion for IT.
-    Over one year, I am a student at UBT Prizren.
+    I am a Computer Science & Engineering student with knowledge in data analysis, Python, SQL, and data science concepts. Experienced in data visualization, exploratory data analysis, and developing practical projects using tools such as GitHub, Databricks, and Streamlit to build interactive applications and data-driven solutions.
+Interested in software development and passionate about turning creative ideas into real-world solutions.
     """)
 
     st.write("📫", EMAIL)
