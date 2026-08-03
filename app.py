@@ -58,7 +58,7 @@ if page == "Home":
     st.write("""
     As a technology enthusiast with a passion for innovation, I am a Computer Science & Engineering student who enjoys transforming ideas into practical solutions.
 I am constantly exploring software development, data, and emerging technologies while expanding my skills through hands-on projects.
-Driven by creativity and continuous learning, I aim to build meaningful digital experiences that create real impact.
+ Driven by creativity and continuous learning, I aim to build meaningful digital experiences that create real impact.
 
     """)
 
