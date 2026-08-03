@@ -56,8 +56,10 @@ if page == "Home":
     st.subheader("About Me")
 
     st.write("""
-    I am a Computer Science Engineering student with a strong passion for IT.
-    I enjoy learning programming, developing projects, and improving my technical skills.
+    As a technology enthusiast with a passion for innovation, I am a Computer Science & Engineering student who enjoys transforming ideas into practical solutions.
+I am constantly exploring software development, data, and emerging technologies while expanding my skills through hands-on projects.
+Driven by creativity and continuous learning, I aim to build meaningful digital experiences that create real impact.
+
     """)
 
 
