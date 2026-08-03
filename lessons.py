@@ -38,8 +38,6 @@ def show_lessons():
 
 SQL (Structured Query Language) është gjuhë që përdoret për komunikim me databaza.
 
-SQL nuk është gjuhë programimi, por përdoret për menaxhimin dhe punën me të dhëna në formë tabelare.
-
 
 ## Përdorimi i SQL
 
