@@ -16,7 +16,7 @@ EMAIL = "berishaajshe07@gmail.com"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Files
-resume_file = "assets/CV_Ajshe.pdf"
+resume_file = "assets/CV_Ajshe_Berisha.pdf"
 profile_pic_file = "assets/IMG_8984.jpeg"
 
 with open(resume_file, "rb") as pdf_file:
