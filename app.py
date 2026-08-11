@@ -17,7 +17,7 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 # Files
 resume_file = "assets/CV_Ajshe_Berisha.pdf"
-profile_pic_file = "assets/profile.png"
+profile_pic_file = "assets/IMG_0670.jpeg"
 
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
