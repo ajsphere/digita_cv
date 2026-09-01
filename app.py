@@ -46,7 +46,7 @@ if page == "Home":
         st.download_button(
             label="📄 Download Resume",
             data=PDFbyte,
-            file_name="CV_Ajshe.pdf",
+            file_name="CV_Ajshe_Berisha.pdf",
             mime="application/pdf",
         )
 
