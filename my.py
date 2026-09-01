@@ -53,7 +53,7 @@ if page == "Home":
     )
 
     st.write("\n")
-    st.write("🚧", "**Computer Science Engineer |UBT Prizren**")
+    st.write("🚧", "**Computer Science Engineer |UBT **")
 
 
 elif page == "About":
